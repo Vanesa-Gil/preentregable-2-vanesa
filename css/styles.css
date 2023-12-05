@@ -1,0 +1,205 @@
+/*Inicio Estilos globales*/
+* {font-family: 'Playpen Sans', cursive; }
+a {text-decoration: none !important;}
+ul{list-style: none;}
+*{margin: 0; padding: 0;}
+*{box-sizing: border-box;}
+/*Fin Estilos globales*/
+
+ 
+@media (min-width: 1280px) {
+
+/* inicio - estilos para mi header*/
+header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-color:rgba(45, 145, 175, 0.829); 
+    margin-bottom: 20px;
+    }
+
+header .logo {
+    color: #f2f2f2;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+    margin: 10px;
+    justify-content:center;
+}    
+
+header nav{
+    float: right;
+    line-height: 200px;
+}
+
+header nav a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background: #6bdae2;
+    border-radius: 50px ;
+}
+
+/* fin - estilos para mi header*/
+
+/* inicio - estilos para mi body*/
+
+body {
+    margin: 0;
+    padding: 0;
+  
+}
+/* inicio - estilos para mi main*/
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 20;
+    text-transform: uppercase;
+    font-size: 20px;
+    left: 50%;
+    top: 50%;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+.comprar {
+    text-align: center;
+}
+
+.carousel-item img {
+    position: relative;
+    width: 250%;
+    height: 910px;
+
+}
+
+.articulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 2Rem;
+    
+}
+.card {
+    position: relative;
+    margin: 50px;
+    text-align: center;
+    box-shadow:rgb(102, 188, 214) 0px 5px 15px;
+    width: 280px;
+    height: 300PX;
+ 
+}
+.card img {
+    width: 100%;
+    height: 210px;
+    margin: 20 15px;
+    box-shadow: color(srgb rgb(180, 35, 35) green blue) ;
+}
+
+.card .descripcion {
+    padding: 15px;
+    text-align: center;
+}
+
+/* inicio formato para pagina productos*/
+
+.galeria-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30rem);
+    text-align: center;
+}
+
+.galeria-foto {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    box-shadow: rgb(102, 188, 214) 0px 5px 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+.galeria-foto img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    justify-content: center;
+}
+.descripción {
+    text-align: center;
+    color: rgb(8, 170, 170);
+}
+
+/* fin formato para pagina productos*/
+
+/* formato CONTACTO*/
+
+form {
+    border: 1px;
+    border-radius: 5px;
+    padding: 17px;
+    width: 300px;
+}
+/* FIN formato CONTACTO*/
+/* fin - estilos para mi main*/
+
+
+
+/* inicio - estilos para mi footer*/
+
+.footer{
+    background-color: rgba(45, 145, 175, 0.829); 
+}
+
+.container {
+   text-align: center;
+   font-size: 30px;
+   justify-content: center;
+}
+
+.footer-row {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.footer-links h4 {
+    text-align: center;
+    justify-content: center;
+    color: #f2f2f2;
+    margin: 10px;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links ul li a {
+    font-size: 25px;    
+    color:#fff;
+    text-align: left;
+}
+
+.redes-sociales a {
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+}
+/* fin - estilos para mi footer*/
+}
+
